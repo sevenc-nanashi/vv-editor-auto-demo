@@ -1,0 +1,27 @@
+{
+  "name": "editor-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:record": "tsx ./src/record/index.ts",
+    "start:composite": "tsx ./src/composite/index.ts",
+    "lint": "biome check",
+    "lint:fix": "biome check --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@logtape/logtape": "^0.8.0",
+    "@playwright/browser-chromium": "^1.49.1",
+    "playwright": "^1.49.1",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.10.2",
+    "playwright-core": "^1.49.1"
+  }
+}
